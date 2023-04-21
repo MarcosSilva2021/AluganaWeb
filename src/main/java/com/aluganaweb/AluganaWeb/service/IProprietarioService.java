@@ -8,7 +8,7 @@ import com.aluganaweb.AluganaWeb.entity.form.ProprietarioUpdate;
 
 import java.util.List;
 
-public interface IPropietarioService {
+public interface IProprietarioService {
     /**
      * Cria um Propietario e salva no banco de dados.
      * @param form formulário referente aos dados para criação de um Propietario no banco de dados.
@@ -39,14 +39,14 @@ public interface IPropietarioService {
     Proprietario update(Long id, ProprietarioUpdate formUpdate);
 
     /**
-     * Deleta um Propietario específico.
+     * Deleta um Proprietario específico.
      * @param id id do Propietario que será removido.
      */
     void delete(Long id);
 
     /**
      *
-     * @param id id do Propietario que será recuperada a lista de avaliações
+     * @param id id do Proprietario que será recuperada a lista de produtos
      * @return uma lista com todos os produtos dos Propietario de acordo com o Id
      */
     List<Produto> getAllProdutoId(Long id);
