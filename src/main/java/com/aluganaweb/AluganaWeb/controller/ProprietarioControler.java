@@ -18,10 +18,10 @@ public class ProprietarioControler {
     private ProprietarioServiceImpl service;
 
 
-    @PostMapping
-    public Proprietario create(@Valid @RequestBody ProprietarioForm form){
-       return service.create(form);
-    }
+   // @PostMapping
+   // public Proprietario create(@Valid @RequestBody ProprietarioForm form){
+  //     return service.create(form);
+    //}
 
     //GetMapping
     //public List<Proprietario> getAll(@RequestParam(value = "bairro", required = false) String bairro){

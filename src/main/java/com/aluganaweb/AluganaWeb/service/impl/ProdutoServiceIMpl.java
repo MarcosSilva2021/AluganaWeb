@@ -1,6 +1,7 @@
 package com.aluganaweb.AluganaWeb.service.impl;
 
 import com.aluganaweb.AluganaWeb.entity.Produto;
+import com.aluganaweb.AluganaWeb.entity.Proprietario;
 import com.aluganaweb.AluganaWeb.entity.form.ProdutoForm;
 import com.aluganaweb.AluganaWeb.entity.form.ProdutoUpdate;
 import com.aluganaweb.AluganaWeb.service.IProdutoService;
@@ -34,5 +35,10 @@ public class ProdutoServiceIMpl implements IProdutoService {
     @Override
     public void delete(Long id) {
 
+    }
+
+    @Override
+    public Proprietario getAllProprietario(Long id) {
+        return null;
     }
 }
