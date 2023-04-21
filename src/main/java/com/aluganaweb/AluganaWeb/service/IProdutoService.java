@@ -1,6 +1,7 @@
 package com.aluganaweb.AluganaWeb.service;
 
 import com.aluganaweb.AluganaWeb.entity.Produto;
+import com.aluganaweb.AluganaWeb.entity.Proprietario;
 import com.aluganaweb.AluganaWeb.entity.form.ProdutoForm;
 import com.aluganaweb.AluganaWeb.entity.form.ProdutoUpdate;
 
@@ -51,5 +52,14 @@ public interface IProdutoService {
      * vai para a PROPRIETARIO
      * List<Produto> getAllProdutoId(Long id);
      */
+
+    /**
+     *
+     * @param id id do Proprietario que será recuperada a lista de proprietarios
+     * @return uma lista com todas as avaliações do aluno de acordo com o Id
+     * vai para a PROPRIETARIO
+     * List<Produto> getAllProdutoId(Long id);
+     */
+    Proprietario getAllProprietario(Long id);
 
 }
